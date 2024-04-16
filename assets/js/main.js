@@ -29,7 +29,7 @@
     /* ==========================================================================
       countdown timer
       ========================================================================== */
-    jQuery("#clock").countdown("2020/10/19", function (event) {
+    jQuery("#clock").countdown("2025/1/17", function (event) {
       var $this = jQuery(this).html(
         event.strftime(
           "" +
