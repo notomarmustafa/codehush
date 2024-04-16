@@ -161,7 +161,8 @@ ol li {
 }
 
 .btn-common {
-  background-color: #e91e63;
+  background-color: #4CB8C4;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4CB8C4, 0 0 40px #4CB8C4, 0 0 50px #4CB8C4, 0 0 60px #4CB8C4, 0 0 70px #4CB8C4;
   position: relative;
   z-index: 1;
   border-radius: 4px;
@@ -169,7 +170,9 @@ ol li {
 
 .btn-common:hover {
   color: #fff;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  border: 1px solid #4CB8C4;
+  border-radius: 4px;
+  background-color: transparent;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -177,6 +180,7 @@ ol li {
 
 .btn-border {
   color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4CB8C4, 0 0 40px #4CB8C4, 0 0 50px #4CB8C4, 0 0 60px #4CB8C4, 0 0 70px #4CB8C4;
   background-color: transparent;
   border: 2px solid #fff;
   border-radius: 4px;
@@ -185,7 +189,7 @@ ol li {
 
 .btn-border:hover {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #4CB8C4;
 }
 
 .btn-lg {
@@ -823,24 +827,24 @@ a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.social .facebook:hover {
-  color: #3b5998;
+.social .discord:hover {
+  color: #7289da;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7289da, 0 0 40px #7289da, 0 0 50px #7289da, 0 0 60px #7289da, 0 0 70px #7289da;
 }
 
 .social .twitter:hover {
-  color: #00aced;
+  color: #1DA1F2;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1DA1F2, 0 0 40px #1DA1F2, 0 0 50px #1DA1F2, 0 0 60px #1DA1F2, 0 0 70px #1DA1F2;
 }
 
 .social .instagram:hover {
-  color: #fb3958;
+  color: #cd486b;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cd486b, 0 0 40px #cd486b, 0 0 50px #cd486b, 0 0 60px #cd486b, 0 0 70px #cd486b;
 }
 
-.social .foursqare:hover {
-  color: #25a0ca;
-}
-
-.social .google:hover {
-  color: #d34836;
+.social .github:hover {
+  color: #2b3137;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2b3137, 0 0 40px #2b3137, 0 0 50px #2b3137, 0 0 60px #2b3137, 0 0 70px #2b3137;
 }
 
 /* Services Item */
