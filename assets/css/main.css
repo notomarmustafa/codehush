@@ -244,7 +244,7 @@ a.back-to-top:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #000;
   z-index: 9999999;
 }
 
@@ -267,7 +267,7 @@ a.back-to-top:focus {
   height: 100%;
   border-radius: 100%;
   border: 7px solid transparent;
-  border-top-color: #e91e63;
+  border-top-color: #4CB8C4;
 }
 
 #loader-1:before {
