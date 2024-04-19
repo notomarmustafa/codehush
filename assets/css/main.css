@@ -161,26 +161,28 @@ ol li {
 }
 
 .btn-common {
-  background-color: #4CB8C4;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4CB8C4, 0 0 40px #4CB8C4, 0 0 50px #4CB8C4, 0 0 60px #4CB8C4, 0 0 70px #4CB8C4;
+  background-color: #4cb8c4;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4cb8c4, 0 0 40px #4cb8c4,
+    0 0 50px #4cb8c4, 0 0 60px #4cb8c4, 0 0 70px #4cb8c4;
   position: relative;
   z-index: 1;
-  border-radius: 4px;
+  border-radius: 100px;
 }
 
 .btn-common:hover {
   color: #fff;
-  border: 1px solid #4CB8C4;
+  border: 1px solid #4cb8c4;
   border-radius: 4px;
   background-color: transparent;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .btn-border {
   color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4CB8C4, 0 0 40px #4CB8C4, 0 0 50px #4CB8C4, 0 0 60px #4CB8C4, 0 0 70px #4CB8C4;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4cb8c4, 0 0 40px #4cb8c4,
+    0 0 50px #4cb8c4, 0 0 60px #4cb8c4, 0 0 70px #4cb8c4;
   background-color: transparent;
   border: 2px solid #fff;
   border-radius: 4px;
@@ -189,7 +191,11 @@ ol li {
 
 .btn-border:hover {
   color: #fff;
-  background-color: #4CB8C4;
+  border-radius: 100px;
+  background-color: #4cb8c4;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .btn-lg {
@@ -267,7 +273,7 @@ a.back-to-top:focus {
   height: 100%;
   border-radius: 100%;
   border: 7px solid transparent;
-  border-top-color: #4CB8C4;
+  border-top-color: #4cb8c4;
 }
 
 #loader-1:before {
@@ -825,37 +831,43 @@ a.back-to-top:focus {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-  text-shadow: 0 0 0 transparent, 0 0 10px #fff, 0 0 20px #4CB8C4;
+  text-shadow: 0 0 0 transparent, 0 0 10px #fff, 0 0 20px #4cb8c4;
 }
 
 .social .discord:hover {
   color: #7289da;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7289da, 0 0 40px #7289da, 0 0 50px #7289da, 0 0 60px #7289da, 0 0 70px #7289da;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7289da, 0 0 40px #7289da,
+    0 0 50px #7289da, 0 0 60px #7289da, 0 0 70px #7289da;
 }
 
 .social .twitter:hover {
-  color: #1DA1F2;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1DA1F2, 0 0 40px #1DA1F2, 0 0 50px #1DA1F2, 0 0 60px #1DA1F2, 0 0 70px #1DA1F2;
+  color: #1da1f2;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1da1f2, 0 0 40px #1da1f2,
+    0 0 50px #1da1f2, 0 0 60px #1da1f2, 0 0 70px #1da1f2;
 }
 
 .social .dev:hover {
   color: #860275;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #860275, 0 0 40px #860275, 0 0 50px #860275, 0 0 60px #860275, 0 0 70px #860275;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #860275, 0 0 40px #860275,
+    0 0 50px #860275, 0 0 60px #860275, 0 0 70px #860275;
 }
 
 .social .instagram:hover {
   color: #cd486b;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cd486b, 0 0 40px #cd486b, 0 0 50px #cd486b, 0 0 60px #cd486b, 0 0 70px #cd486b;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cd486b, 0 0 40px #cd486b,
+    0 0 50px #cd486b, 0 0 60px #cd486b, 0 0 70px #cd486b;
 }
 
 .social .tiktok:hover {
   color: #00f2ea;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0050, 0 0 40px #00f2ea, 0 0 50px #000000, 0 0 60px #ff0050, 0 0 70px #00f2ea;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0050, 0 0 40px #00f2ea,
+    0 0 50px #000000, 0 0 60px #ff0050, 0 0 70px #00f2ea;
 }
 
 .social .snapchat:hover {
-  color: #FFFC00;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFC00, 0 0 40px #FFFC00, 0 0 50px #FFFC00, 0 0 60px #FFFC00, 0 0 70px #FFFC00;
+  color: #fffc00;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fffc00, 0 0 40px #fffc00,
+    0 0 50px #fffc00, 0 0 60px #fffc00, 0 0 70px #fffc00;
 }
 
 /* Services Item */
