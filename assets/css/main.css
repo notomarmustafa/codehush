@@ -244,7 +244,7 @@ a.back-to-top:focus {
 }
 
 /* Preloader */
-#preloader {
+/*#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -298,7 +298,7 @@ a.back-to-top:focus {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+} */
 
 .section-padding {
   padding: 60px 0;
